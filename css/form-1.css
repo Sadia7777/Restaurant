@@ -1,0 +1,85 @@
+a{
+	text-decoration: none;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.sign-up-now{
+	width: 350px;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+	padding: 50px 30px;
+	margin: 8% auto 0;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+ .sign-up-now img{
+	height: 70px;
+	width: 70px;
+	margin-right: 150px;
+		
+}
+.sign-up-now h2{
+	color: #000000;
+	text-align: left;
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+	width: 400;
+	font-size: 18px;
+	margin-top: 10px;	
+}
+
+.sign-up-now p{
+	color: #b98d36;;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	width: 300;
+	font-size: 12px;
+	margin-top: -8px;
+}
+.sign-up-now input{
+	border-radius: 0px;
+    background-color: #fff;
+    border: 1px solid #b98d36;
+	width: 95%;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	padding: 12px 6px;
+	border-radius: 6px;
+}
+
+.sign-up-now a{
+	padding: 8px 6px;
+	border-radius: 6px;
+	border: 1px solid #b98d36; 
+	margin-top: 10px;
+	background: #b98d36;
+	font-family: 'Open Sans', sans-serif;
+	width: 300;
+	font-size: 14px;
+	color: #ffffff;
+	width:100%;
+	transition: .4s;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 12px 6px;
+}
+.sign-up-now a:hover{
+	background: #ebd199;
+	color: #fff;
+	border: none;
+	border: 1px solid #ffffff;
+}
+
+.sign-up-now .log-in a{
+	color: #e6dee2;
+		background: #b98d36;
+	transition: .4s;
+}
+.sign-up-now .sign-in:hover .log-in a{
+	background: #f5e4ec;
+}
